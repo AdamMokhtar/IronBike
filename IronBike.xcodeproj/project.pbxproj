@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50CE54150A5ECE264A649F49 /* libPods-IronBike.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C917DE9A8DA14BDA066FEB /* libPods-IronBike.a */; };
+		570ED252224C3D2500926906 /* FixMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570ED251224C3D2500926906 /* FixMapViewController.swift */; };
+		570ED254224CED1700926906 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570ED253224CED1700926906 /* MapKit.framework */; };
+		574FD20A2240354800D0A7DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574FD2092240354800D0A7DA /* AppDelegate.swift */; };
+		574FD20C2240354800D0A7DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574FD20B2240354800D0A7DA /* ViewController.swift */; };
+		574FD20F2240354800D0A7DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574FD20D2240354800D0A7DA /* Main.storyboard */; };
+		574FD2112240355200D0A7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574FD2102240355200D0A7DA /* Assets.xcassets */; };
+		574FD2142240355200D0A7DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574FD2122240355200D0A7DA /* LaunchScreen.storyboard */; };
+		574FD2382240551300D0A7DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574FD2372240551300D0A7DA /* GoogleService-Info.plist */; };
+		5F513C1F225DFA32008805D5 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F513C1E225DFA32008805D5 /* Users.swift */; };
+		5F513C23225DFC51008805D5 /* RegisterRenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F513C22225DFC51008805D5 /* RegisterRenter.swift */; };
+		5F513C25225DFE80008805D5 /* RegisterFixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F513C24225DFE80008805D5 /* RegisterFixer.swift */; };
+		5F6DCED12243F85A00D161A6 /* Screenshot 2019-03-15 at 10.35.10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F6DCED02243F85A00D161A6 /* Screenshot 2019-03-15 at 10.35.10.png */; };
+		5F6DCED32244FD8600D161A6 /* RegisterRiderControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6DCED22244FD8600D161A6 /* RegisterRiderControllerViewController.swift */; };
+		83B124AA225B6AA1004A14C7 /* RentMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B124A9225B6AA1004A14C7 /* RentMapViewController.swift */; };
+		83FB1671224E3F2F003439A6 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB1670224E3F2F003439A6 /* Venue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		574FD21B2240355300D0A7DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574FD1FE2240354800D0A7DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574FD2052240354800D0A7DA;
+			remoteInfo = IronBike;
+		};
+		574FD2262240355300D0A7DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574FD1FE2240354800D0A7DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574FD2052240354800D0A7DA;
+			remoteInfo = IronBike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10C917DE9A8DA14BDA066FEB /* libPods-IronBike.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronBike.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		570ED251224C3D2500926906 /* FixMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FixMapViewController.swift; path = IronBike/FixMapViewController.swift; sourceTree = SOURCE_ROOT; };
+		570ED253224CED1700926906 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		574FD2062240354800D0A7DA /* IronBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		574FD2092240354800D0A7DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		574FD20B2240354800D0A7DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		574FD20E2240354800D0A7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		574FD2102240355200D0A7DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = /Users/issd/Desktop/IronBike/IronBike/Assets.xcassets; sourceTree = "<absolute>"; };
+		574FD2132240355200D0A7DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		574FD2152240355200D0A7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574FD21A2240355300D0A7DA /* IronBikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronBikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		574FD2252240355300D0A7DA /* IronBikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronBikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		574FD2372240551300D0A7DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F513C1E225DFA32008805D5 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		5F513C22225DFC51008805D5 /* RegisterRenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRenter.swift; sourceTree = "<group>"; };
+		5F513C24225DFE80008805D5 /* RegisterFixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFixer.swift; sourceTree = "<group>"; };
+		5F6DCED02243F85A00D161A6 /* Screenshot 2019-03-15 at 10.35.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2019-03-15 at 10.35.10.png"; sourceTree = "<group>"; };
+		5F6DCED22244FD8600D161A6 /* RegisterRiderControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRiderControllerViewController.swift; sourceTree = "<group>"; };
+		83B124A9225B6AA1004A14C7 /* RentMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentMapViewController.swift; sourceTree = "<group>"; };
+		83FB1670224E3F2F003439A6 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		F6E206B081CAFC676EC15BF2 /* Pods-IronBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronBike.debug.xcconfig"; path = "Target Support Files/Pods-IronBike/Pods-IronBike.debug.xcconfig"; sourceTree = "<group>"; };
+		FA43B86A1A541C8C89D7BED5 /* libPods-IronBikeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IronBikeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE99F3030B7CFD5A7EA91DFB /* Pods-IronBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IronBike.release.xcconfig"; path = "Target Support Files/Pods-IronBike/Pods-IronBike.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		574FD2032240354800D0A7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570ED254224CED1700926906 /* MapKit.framework in Frameworks */,
+				50CE54150A5ECE264A649F49 /* libPods-IronBike.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574FD2172240355300D0A7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574FD2222240355300D0A7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7D1AF1ADF6100F5F91A080 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6E206B081CAFC676EC15BF2 /* Pods-IronBike.debug.xcconfig */,
+				FE99F3030B7CFD5A7EA91DFB /* Pods-IronBike.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		574FD1FD2240354800D0A7DA = {
+			isa = PBXGroup;
+			children = (
+				574FD2082240354800D0A7DA /* IronBike */,
+				574FD2072240354800D0A7DA /* Products */,
+				2E7D1AF1ADF6100F5F91A080 /* Pods */,
+				FFB7BB402CAE5B71BDE471E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		574FD2072240354800D0A7DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574FD2062240354800D0A7DA /* IronBike.app */,
+				574FD21A2240355300D0A7DA /* IronBikeTests.xctest */,
+				574FD2252240355300D0A7DA /* IronBikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574FD2082240354800D0A7DA /* IronBike */ = {
+			isa = PBXGroup;
+			children = (
+				574FD2092240354800D0A7DA /* AppDelegate.swift */,
+				574FD20B2240354800D0A7DA /* ViewController.swift */,
+				83B124A9225B6AA1004A14C7 /* RentMapViewController.swift */,
+				83FB1670224E3F2F003439A6 /* Venue.swift */,
+				574FD20D2240354800D0A7DA /* Main.storyboard */,
+				5F6DCED22244FD8600D161A6 /* RegisterRiderControllerViewController.swift */,
+				574FD2102240355200D0A7DA /* Assets.xcassets */,
+				574FD2122240355200D0A7DA /* LaunchScreen.storyboard */,
+				574FD2372240551300D0A7DA /* GoogleService-Info.plist */,
+				574FD2152240355200D0A7DA /* Info.plist */,
+				5F6DCED02243F85A00D161A6 /* Screenshot 2019-03-15 at 10.35.10.png */,
+				570ED251224C3D2500926906 /* FixMapViewController.swift */,
+				5F513C1E225DFA32008805D5 /* Users.swift */,
+				5F513C22225DFC51008805D5 /* RegisterRenter.swift */,
+				5F513C24225DFE80008805D5 /* RegisterFixer.swift */,
+			);
+			path = IronBike;
+			sourceTree = "<group>";
+		};
+		FFB7BB402CAE5B71BDE471E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				570ED253224CED1700926906 /* MapKit.framework */,
+				FA43B86A1A541C8C89D7BED5 /* libPods-IronBikeTests.a */,
+				10C917DE9A8DA14BDA066FEB /* libPods-IronBike.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		574FD2052240354800D0A7DA /* IronBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574FD22E2240355300D0A7DA /* Build configuration list for PBXNativeTarget "IronBike" */;
+			buildPhases = (
+				C7A1C64F0BF59E5D48DE4BD4 /* [CP] Check Pods Manifest.lock */,
+				574FD2022240354800D0A7DA /* Sources */,
+				574FD2032240354800D0A7DA /* Frameworks */,
+				574FD2042240354800D0A7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronBike;
+			productName = IronBike;
+			productReference = 574FD2062240354800D0A7DA /* IronBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		574FD2192240355300D0A7DA /* IronBikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574FD2312240355300D0A7DA /* Build configuration list for PBXNativeTarget "IronBikeTests" */;
+			buildPhases = (
+				574FD2162240355300D0A7DA /* Sources */,
+				574FD2172240355300D0A7DA /* Frameworks */,
+				574FD2182240355300D0A7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574FD21C2240355300D0A7DA /* PBXTargetDependency */,
+			);
+			name = IronBikeTests;
+			productName = IronBikeTests;
+			productReference = 574FD21A2240355300D0A7DA /* IronBikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		574FD2242240355300D0A7DA /* IronBikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574FD2342240355300D0A7DA /* Build configuration list for PBXNativeTarget "IronBikeUITests" */;
+			buildPhases = (
+				574FD2212240355300D0A7DA /* Sources */,
+				574FD2222240355300D0A7DA /* Frameworks */,
+				574FD2232240355300D0A7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574FD2272240355300D0A7DA /* PBXTargetDependency */,
+			);
+			name = IronBikeUITests;
+			productName = IronBikeUITests;
+			productReference = 574FD2252240355300D0A7DA /* IronBikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		574FD1FE2240354800D0A7DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Fontys;
+				TargetAttributes = {
+					574FD2052240354800D0A7DA = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					574FD2192240355300D0A7DA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 574FD2052240354800D0A7DA;
+					};
+					574FD2242240355300D0A7DA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 574FD2052240354800D0A7DA;
+					};
+				};
+			};
+			buildConfigurationList = 574FD2012240354800D0A7DA /* Build configuration list for PBXProject "IronBike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 574FD1FD2240354800D0A7DA;
+			productRefGroup = 574FD2072240354800D0A7DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				574FD2052240354800D0A7DA /* IronBike */,
+				574FD2192240355300D0A7DA /* IronBikeTests */,
+				574FD2242240355300D0A7DA /* IronBikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		574FD2042240354800D0A7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574FD2142240355200D0A7DA /* LaunchScreen.storyboard in Resources */,
+				574FD2382240551300D0A7DA /* GoogleService-Info.plist in Resources */,
+				5F6DCED12243F85A00D161A6 /* Screenshot 2019-03-15 at 10.35.10.png in Resources */,
+				574FD2112240355200D0A7DA /* Assets.xcassets in Resources */,
+				574FD20F2240354800D0A7DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574FD2182240355300D0A7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574FD2232240355300D0A7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7A1C64F0BF59E5D48DE4BD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IronBike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		574FD2022240354800D0A7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B124AA225B6AA1004A14C7 /* RentMapViewController.swift in Sources */,
+				574FD20C2240354800D0A7DA /* ViewController.swift in Sources */,
+				83FB1671224E3F2F003439A6 /* Venue.swift in Sources */,
+				570ED252224C3D2500926906 /* FixMapViewController.swift in Sources */,
+				5F513C23225DFC51008805D5 /* RegisterRenter.swift in Sources */,
+				574FD20A2240354800D0A7DA /* AppDelegate.swift in Sources */,
+				5F513C25225DFE80008805D5 /* RegisterFixer.swift in Sources */,
+				5F6DCED32244FD8600D161A6 /* RegisterRiderControllerViewController.swift in Sources */,
+				5F513C1F225DFA32008805D5 /* Users.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574FD2162240355300D0A7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574FD2212240355300D0A7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		574FD21C2240355300D0A7DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574FD2052240354800D0A7DA /* IronBike */;
+			targetProxy = 574FD21B2240355300D0A7DA /* PBXContainerItemProxy */;
+		};
+		574FD2272240355300D0A7DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574FD2052240354800D0A7DA /* IronBike */;
+			targetProxy = 574FD2262240355300D0A7DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		574FD20D2240354800D0A7DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574FD20E2240354800D0A7DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		574FD2122240355200D0A7DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574FD2132240355200D0A7DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		574FD22C2240355300D0A7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		574FD22D2240355300D0A7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574FD22F2240355300D0A7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E206B081CAFC676EC15BF2 /* Pods-IronBike.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWTAA8VL2P;
+				INFOPLIST_FILE = IronBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.IronBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574FD2302240355300D0A7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE99F3030B7CFD5A7EA91DFB /* Pods-IronBike.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWTAA8VL2P;
+				INFOPLIST_FILE = IronBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.IronBike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		574FD2322240355300D0A7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.IronBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronBike.app/IronBike";
+			};
+			name = Debug;
+		};
+		574FD2332240355300D0A7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.IronBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronBike.app/IronBike";
+			};
+			name = Release;
+		};
+		574FD2352240355300D0A7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronBikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.IronBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IronBike;
+			};
+			name = Debug;
+		};
+		574FD2362240355300D0A7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IronBikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fontys.IronBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IronBike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		574FD2012240354800D0A7DA /* Build configuration list for PBXProject "IronBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574FD22C2240355300D0A7DA /* Debug */,
+				574FD22D2240355300D0A7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574FD22E2240355300D0A7DA /* Build configuration list for PBXNativeTarget "IronBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574FD22F2240355300D0A7DA /* Debug */,
+				574FD2302240355300D0A7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574FD2312240355300D0A7DA /* Build configuration list for PBXNativeTarget "IronBikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574FD2322240355300D0A7DA /* Debug */,
+				574FD2332240355300D0A7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574FD2342240355300D0A7DA /* Build configuration list for PBXNativeTarget "IronBikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574FD2352240355300D0A7DA /* Debug */,
+				574FD2362240355300D0A7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 574FD1FE2240354800D0A7DA /* Project object */;
+}
